@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Hello World</h1>
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
-
+{% capture portfolio_intro %}{% include content/intro.md %}{% endcapture %}
+<div class="character">
+  <img class="character__image" src="/img/me_pixel_no_bg.png" alt="Dan Purdy 8 bit retro pixel character">
 </div>
+<section class="intro">
+  {% include header.html %}
+  <p class="intro__text">{{ portfolio_intro }}</p>
+</section>

@@ -1,0 +1,15 @@
+.header {
+  &__title {
+    font-size: 6.25rem;
+    color: $heading-color;
+    margin-bottom: 0;
+    line-height: 1;
+  }
+
+  &__sub-title {
+    font-size: 3.125rem;
+    color: $heading-color;
+    margin: 0;
+    line-height: 0.8;
+  }
+}

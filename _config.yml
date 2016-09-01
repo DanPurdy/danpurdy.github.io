@@ -24,9 +24,11 @@ twitter_username: DanPurdy0
 github_username:  DanPurdy
 company_name: Loft Digital
 company_url: http://weareloft.com
-
+sass:
+  sass_dir: _scss
+  style: compressed
 # Build settings
 markdown: kramdown
-theme: minima
 gems:
   - jekyll-seo-tag
+  - octopress-autoprefixer

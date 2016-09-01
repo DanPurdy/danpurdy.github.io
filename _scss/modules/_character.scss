@@ -1,0 +1,8 @@
+.character {
+  @include span(3 of 12);
+  @include pre(1 of 12);
+
+  &__img {
+    max-height: 1200px;
+  }
+}
