@@ -30,3 +30,24 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
+
+@media print {
+  a {
+    font-weight: 700;
+    text-decoration: underline;
+    color: $base-text-color;
+
+    &:focus,
+    &:active,
+    &:hover {
+      color: darken($base-text-color, 5%);
+      text-decoration: none;
+    }
+
+    &::after {
+      content: ' (' attr(href) ') ';
+      font-size: 0.8em;
+      font-weight: normal;
+    }
+  }
+}
