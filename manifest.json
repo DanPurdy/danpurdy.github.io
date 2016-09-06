@@ -1,7 +1,7 @@
 {
 	"name": "Dan Purdy - Portfolio",
 	"short_name": "Dan Purdy",
-	"start_url": "dpurdy.me",
+	"start_url": "./",
 	"icons": [
 		{
 			"src": "\/android-chrome-192x192.png",
