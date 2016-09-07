@@ -1,0 +1,17 @@
+.social-icon {
+  display: block;
+  width: 74px;
+  height: 74px;
+
+  &--github {
+    background: url('/img/github-logo.png') top left no-repeat;
+  }
+
+  &--linkedIn {
+    background: url('/img/linkedin-logo.png') top left no-repeat;
+  }
+
+  &--cv {
+    background: url('/img/cv-logo.png') top left no-repeat;
+  }
+}
