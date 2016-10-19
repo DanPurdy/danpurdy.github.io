@@ -1,5 +1,5 @@
 .character {
-  @include span(12 of 12);
+  flex: 1;
   text-align: center;
 
   &__img {
