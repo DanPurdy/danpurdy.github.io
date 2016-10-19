@@ -1,3 +1,4 @@
+---
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -20,8 +21,11 @@ description: >
   Currently working as a Senior Developer for Loft Digital
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dpurdy.me" # the base hostname & protocol for your site
+twitter:
+  username: DanPurdy0
 twitter_username: DanPurdy0
 github_username:  DanPurdy
+logo: /android-chrome-192x192.png
 company_name: Loft Digital
 company_url: http://weareloft.com
 sass:
