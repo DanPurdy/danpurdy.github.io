@@ -18,7 +18,7 @@ title: Dan Purdy | Developer
 email: dan@dpurdy.me
 description: >
   Dan Purdy is a Front End Developer from London, UK.
-  Currently working as a Senior Developer for Loft Digital
+  Currently working as a Lead Front End Engineer for Urban Massage
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dpurdy.me" # the base hostname & protocol for your site
 twitter:
@@ -26,8 +26,8 @@ twitter:
 twitter_username: DanPurdy0
 github_username:  DanPurdy
 logo: /android-chrome-192x192.png
-company_name: Loft Digital
-company_url: http://weareloft.com
+company_name: Urban Massage
+company_url: https://www.urbanmassage.com/en-gb/
 sass:
   sass_dir: _scss
   style: compressed
